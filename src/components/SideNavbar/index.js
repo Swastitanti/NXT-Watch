@@ -97,11 +97,21 @@ const SideNavbar = () => (
               src="https://assets.ccbp.in/frontend/react-js/nxt-watch-twitter-logo-img.png"
               alt="twitter logo"
             />
-            <ContactLogos
-              href="www.linkedin.com/in/swasti-kumari"
-              src="https://assets.ccbp.in/frontend/react-js/nxt-watch-linked-in-logo-img.png"
-              alt="linked in logo"
-            />
+                <a
+    href="https://www.linkedin.com/in/your-linkedin-username"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <ContactLogos
+      src="https://assets.ccbp.in/frontend/react-js/nxt-watch-linked-in-logo-img.png"
+      alt="linked in logo"
+    />
+  </a>
+            // <ContactLogos
+            //   href="www.linkedin.com/in/swasti-kumari"
+            //   src="https://assets.ccbp.in/frontend/react-js/nxt-watch-linked-in-logo-img.png"
+            //   alt="linked in logo"
+            // />
             <ContactDescription style={{color: `${textColor}`}}>
               Enjoy! Now to see your channels and recommendations!
             </ContactDescription>
