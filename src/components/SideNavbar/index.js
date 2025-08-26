@@ -98,6 +98,7 @@ const SideNavbar = () => (
               alt="twitter logo"
             />
             <ContactLogos
+              href="www.linkedin.com/in/swasti-kumari"
               src="https://assets.ccbp.in/frontend/react-js/nxt-watch-linked-in-logo-img.png"
               alt="linked in logo"
             />
