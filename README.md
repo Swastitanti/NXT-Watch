@@ -1,4 +1,36 @@
-In this project, let's build **Nxt Watch** by applying the concepts we have learned till now.
+# 🎬 NxtWatch – YouTube Clone App  
+
+NxtWatch is a React.js web application that replicates the core functionality of a modern video streaming platform, inspired by YouTube. The application provides users with a seamless experience to browse, search, and watch videos while maintaining a clean and responsive design. It includes features such as authentication, protected routes, theming (dark/light mode), and persistent login state, ensuring both usability and security.
+
+With a focus on scalability and user experience, NxtWatch is built using React Router for navigation, REST API integration for fetching video content, JWT tokens for secure authentication, and local storage for persisting session data. The UI is designed to be intuitive and responsive, giving users a smooth browsing and viewing experience across devices.
+
+This project demonstrates strong front-end development practices, covering state management, reusable components, API handling, and modern styling techniques, making it a complete showcase of building a functional video-streaming application from scratch.  
+
+---
+
+## 🚀 Features  
+
+- 🔐 **User Authentication** (Login, Logout) using JWT tokens  
+- 🌓 **Dark Mode / Light Mode** toggle with persistence  
+- 📺 **Video Feed** – Home, Trending, Gaming, and Saved Videos  
+- 🎯 **Search Functionality** to find videos quickly  
+- ❤️ **Save & Unsave Videos** to personal library  
+- 🔄 **Protected Routes** using React Router  
+- ⚡ **Responsive Design** with mobile-first approach  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Frontend:** React.js, React Router DOM  
+- **State Management:** React Hooks (useState, useContext)  
+- **Styling:** CSS3, Flexbox, Responsive Layout  
+- **Authentication:** JWT Tokens, Cookies  
+- **Build Tool:** Create React App  
+- **Linting:** ESLint (Airbnb Style Guide)  
+
+---  
+
 
 ### Refer to the videos below:
 
@@ -597,9 +629,7 @@ console.log(formatDistanceToNow(new Date(2021, 8, 20)))
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+> ### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/your-username/nxtwatch.git
+cd nxtwatch
