@@ -89,33 +89,69 @@ const SideNavbar = () => (
             <ContactHeading style={{color: `${textColor}`}}>
               CONTACT US
             </ContactHeading>
-            <ContactLogos
-              src="https://assets.ccbp.in/frontend/react-js/nxt-watch-facebook-logo-img.png"
-              alt="facebook logo"
-            />
-            <ContactLogos
-              src="https://assets.ccbp.in/frontend/react-js/nxt-watch-twitter-logo-img.png"
-              alt="twitter logo"
-            />
-                <a
-    href="https://www.linkedin.com/in/your-linkedin-username"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <ContactLogos
-      src="https://assets.ccbp.in/frontend/react-js/nxt-watch-linked-in-logo-img.png"
-      alt="linked in logo"
-    />
-  </a>
-            // <ContactLogos
-            //   href="www.linkedin.com/in/swasti-kumari"
-            //   src="https://assets.ccbp.in/frontend/react-js/nxt-watch-linked-in-logo-img.png"
-            //   alt="linked in logo"
-            // />
+
+            {/* Facebook */}
+            <a
+              href="https://www.facebook.com/your-facebook-username"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ContactLogos
+                src="https://assets.ccbp.in/frontend/react-js/nxt-watch-facebook-logo-img.png"
+                alt="facebook logo"
+              />
+            </a>
+
+            {/* Twitter */}
+            <a
+              href="https://x.com/SwastiTanti"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ContactLogos
+                src="https://assets.ccbp.in/frontend/react-js/nxt-watch-twitter-logo-img.png"
+                alt="twitter logo"
+              />
+            </a>
+
+            {/* LinkedIn */}
+            <a
+              href="https://www.linkedin.com/in/swasti-kumari"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ContactLogos
+                src="https://assets.ccbp.in/frontend/react-js/nxt-watch-linked-in-logo-img.png"
+                alt="linked in logo"
+              />
+            </a>
+
             <ContactDescription style={{color: `${textColor}`}}>
               Enjoy! Now to see your channels and recommendations!
             </ContactDescription>
           </SidebarContactContainer>
+                  
+          // <SidebarContactContainer>
+          //   <ContactHeading style={{color: `${textColor}`}}>
+          //     CONTACT US
+          //   </ContactHeading>
+          //   <ContactLogos
+          //     src="https://assets.ccbp.in/frontend/react-js/nxt-watch-facebook-logo-img.png"
+          //     alt="facebook logo"
+          //   />
+          //   <ContactLogos
+          //     src="https://assets.ccbp.in/frontend/react-js/nxt-watch-twitter-logo-img.png"
+          //     alt="twitter logo"
+          //   />
+          //   <ContactLogos
+          //     href="www.linkedin.com/in/swasti-kumari"
+          //     src="https://assets.ccbp.in/frontend/react-js/nxt-watch-linked-in-logo-img.png"
+          //     alt="linked in logo"
+          //   />
+          //   <ContactDescription style={{color: `${textColor}`}}>
+          //     Enjoy! Now to see your channels and recommendations!
+          //   </ContactDescription>
+          // </SidebarContactContainer>
         </SidebarContainer>
       )
     }}
