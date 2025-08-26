@@ -114,7 +114,7 @@ class LoginRoute extends Component {
                     id="username"
                     type="text"
                     value={username}
-                    placeholder="Username"
+                    placeholder="username-rahul"
                     onChange={this.onChangeUsername}
                   />
                 </InputContainer>
@@ -126,7 +126,7 @@ class LoginRoute extends Component {
                     id="password"
                     type={inputType}
                     value={password}
-                    placeholder="Password"
+                    placeholder="Password-rahul@2021"
                     onChange={this.onChangePassword}
                   />
                 </InputContainer>
